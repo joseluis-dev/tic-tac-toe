@@ -1,0 +1,17 @@
+.gridContainer {
+    display: grid;
+    position: relative;
+    margin: 20px;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.buttonContainer {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.gameContainer {
+    display: flex;
+}
